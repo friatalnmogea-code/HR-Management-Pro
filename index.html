@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>محطة الفرات - نظام إدارة الموارد البشرية</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar"></aside>
+      <main class="main-panel">
+        <header class="topbar">
+          <div>
+            <div class="eyebrow">لوحة متابعة التشغيل</div>
+            <h2 id="topbarTitle">الرئيسية</h2>
+          </div>
+          <div class="topbar-actions">
+            <button class="ghost-btn" data-action="refresh-app">تحديث</button>
+            <button class="primary-btn" data-action="save-current-state">حفظ البيانات</button>
+          </div>
+        </header>
+        <div id="app"></div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
